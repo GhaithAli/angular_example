@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "server",
+      "author": "node"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "workers" : [{
+    "name": "Ghaith Ali",
+    "title": "Software developer",
+    "id": "1",
+    "isAdmin": "false",
+    "age": "30",
+    "country": "Denmark",
+    "education": "Computer Science",
+    "interests": "Football, books, travel"
+  },{
+    "name": "Peter Sørensen",
+    "title": "Backend developer",
+    "id": "2",
+    "isAdmin": "false",
+    "age": "26",
+    "country": "England",
+    "education": "Mathematics",
+    "interests": "gaming, hiking, travel"
+  },{
+    "name": "Morten Barbra",
+    "title": "Development Manager",
+    "id": "3",
+    "isAdmin": "true",
+    "age": "42",
+    "country": "Sweeden",
+    "education": "Computer Science",
+    "interests": "books, travel, gaming"
+  }]
+}

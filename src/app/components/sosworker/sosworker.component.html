@@ -1,0 +1,17 @@
+<p>Worker name: <b>{{worker.name}}</b></p>
+
+<p>Worker Title: {{worker.title}}</p>
+
+<ng-container *ngIf="showDetails">
+
+  <p>Worker age: {{worker.age}}</p>
+
+  <p>Worker country: {{worker.country}}</p>
+
+  <p>Worker education: {{worker.education}}</p>
+
+  <p>Worker interests: {{worker.interests}}</p>
+
+</ng-container>
+
+<button mat-button type="button" class="btn btn-outline-dark" (click)="toggleDetails()"> {{showDetailsText}}</button>
